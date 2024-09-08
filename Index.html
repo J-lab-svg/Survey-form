@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta viewport="width=device-width, initial-scale=1.0">
+<title>Survey form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <h1 id="title">Survey Form</h1>
+ <p id="description">Thank you for taking the time to fill this form</p>
+ <form id="survey-form">
+ 
+ <label id="name-label" for="name">Name: <input id="name" placeholder="Enter your name" type="text" required/></label>
+ <label id="email-label" for="email">Email: <input id="email" placeholder="Enter your email" type="email" required/></label>
+ <label id="number-label" for="age">Age: <input id="number" placeholder="Age" type="number" min="15" max="98"required/></label>
+ <label>How did you hear about us?: <select id="role" placeholder="Select an option" >
+ <option value="">Select an option</option>
+<option value="1">Online advertising</option>
+<option value="2">Print advertising</option>
+<option value="3">Direct mail</option>
+<option value="4">Referral</option>
+<option value="5">Other</option>
+</select>
+</label>
+
+<fieldset>
+<legend>How likely are you to recommended us to a friend or colleague?</legend>
+<label for="very unlikely"><input id="very unlikely" value="option1" name="recommend" type="radio" class="inline"/>Very unlikely</label>
+<label for="very likely"><input id="very likely" value="option1" name="recommend" type="radio" class="inline"/> Very likely</label>
+<label for="somewhat likely"><input id="somewhat likely" name="recommend" value="option2" type="radio" class="inline"/> Somewhat likely</label>
+<label for="unlikely"><input id="unlikely" name="recommend" type="radio" value="option3" class="inline"/> Unlikely</label>
+</fieldset>
+
+
+
+<label for="rating">How would you rate our company on it's prices</label>
+<select id="dropdown" name="rating-label" placeholder="Select an option">
+<option value="">Select an option</option>
+<option value="1">Affordable</option>
+<option value="2">Unacceptable</option>
+<option value="3">Acceptable</option>
+<option value="4">Expensive</option>
+</select>
+
+
+<fieldset>
+<legend>Which of our services are you interested in? (Check all that apply)</legend>
+<label><input id="Massage therapy" type="checkbox" value="Massage therapy" class="checkbox"/>Massage therapy</label>
+
+<label><input id="Waxing and tinting" type="checkbox" value="Waxing and tinting" class="checkbox"/>Waxing and tinting</label>
+
+<label><input id="Manicure and pedicure" type="checkbox" value="Manicure and pedicure" class="checkbox"/>Manicure and pedicure</label>
+
+<label><input id="Body treatments" type="checkbox" value="Body treatments" class="checkbox"/>Body treatments</label>
+
+<label><input id="Facial treatments" type="checkbox" value="Facial treatments" class="checkbox">Facial treatments</label>
+
+<label><input id="Yoga and pilates class" type="checkbox" value="Yoga and pilates class" class="checkbox" />Yoga and pilates class</label>
+
+<label><input id="Sauna or steam room sessions" type="checkbox" value="Sauna or steam room session" class="checkbox"/>Sauna or steam room sessions</label>
+
+<label><input id="Membership or loyalty programs" type="checkbox" value="Membership or loyalty programs"class="checkbox"/>Membership or loyalty programs</label>
+
+<label><input id="Private spa rooms and suites" type="checkbox" value="Private spa rooms and suite" class="checkbox"/>Private spa rooms and suites</label>
+
+
+</fieldset>
+
+<p>Any comments or suggestions?</p>
+<textarea>Enter your comment here...</textarea>
+<button id="submit" class="submit">Submit</button>
+</body>
+
+</html>
