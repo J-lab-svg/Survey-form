@@ -1,0 +1,75 @@
+
+body {
+	font-family: Italic, sans-serif;
+ background-color: magneta;
+ font-size: 12px;
+ text-color: white;
+}
+#survey-form {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ background-color: lavender
+}
+label {
+ display: block;
+ margin-bottom: 5px;
+	}
+
+input{
+display:block;
+	width: 100%;
+	height: 12px;
+	margin-bottom: 20px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	borders-radius: 5px;
+ background-color: rgb(255, 255, 255);
+font-size: 10px;
+}
+
+select{
+display:block;
+	width: 100%;
+	height: 15px;
+	margin-bottom: 20px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	borders-radius: 5px;
+ background-color: rgb(255, 255, 255);
+ font-size: 10px;
+ font-color: gray
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  display: inline-block;
+}
+
+.checkbox {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  display: inline-block
+}
+
+textarea {
+width: 100%;
+height: 50px
+}
+
+button {
+margin-top: 10px;
+width: 100%;
+background-color: gray;
+
+}
+ 
+h1, p{
+text-align: center;
+} 
+
+
